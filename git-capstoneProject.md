@@ -226,12 +226,19 @@
 
 
 
+
 #### I pushed the changes to the update-event branch by running the command "git push origin update-events"
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/6e1a2906-fa89-4fc2-b6f2-dfdb04ec1c95)
 
 
 
 
+
+
+
+
+#### I raised a pull request for update-event after merging it into the main branch and subsequently merged it all 
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/2aba8a5a-64e3-4584-b7d0-f673a98ed652)
 
 
 
