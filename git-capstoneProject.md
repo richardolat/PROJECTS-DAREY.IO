@@ -185,6 +185,97 @@
 
 
 #### I raised a pull-request for Morgan's work and merged with the main branch
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/bca7d670-c101-443a-9292-bbfbfe98a718)
+
+
+
+
+
+# For Jamie's work
+
+
+#### I created and switched into a new branch called update-events branch by running the command "git checkout -b update-events"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/9b66a6fa-af33-4d93-9b78-2904e5572e05)
+
+
+
+
+
+
+
+
+
+#### I modified the events page by updating it with the community up-coming events. there after i staged the changes by running the command "git add events.html"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/b9d9b31c-0df6-4416-91bd-95931d880de2)
+
+
+
+
+
+
+
+
+#### I commit the staged changes by running the command "git commit -m "update events"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/5310efb6-df5b-457f-8b34-daa5bae4e522)
+
+
+
+
+
+
+
+
+
+#### I pushed the changes to the update-event branch by running the command "git push origin update-events"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/6e1a2906-fa89-4fc2-b6f2-dfdb04ec1c95)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
