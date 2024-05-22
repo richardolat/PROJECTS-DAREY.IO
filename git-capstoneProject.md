@@ -135,6 +135,143 @@
 
 
 
+# STIMULATING MORGAN AND JAMIES'S WORK
+
+## For Morgan
+
+
+#### I switched into a new branch named "add-book-reviews" by running the command "git checkout -b add-book-reviews"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/6f994096-af60-4993-b54e-b2386dfde482)
+
+
+
+
+
+
+
+
+
+
+#### I added a new file named "book_reviews.html and added some content into it and thereafter staged the new file by running "git add book_reviews.html"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/15c6293f-0f66-45c2-bf5d-6ebfefbd4925)
+
+
+
+
+
+
+
+
+
+#### I commit and change by running the command "git commit -m "book reviews section"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/66717b7a-1d6c-4933-8078-37fd46f9676d)
+
+
+
+
+
+
+
+
+
+#### I pushed the changes to the add-book-reviews branch by running the command "git push origin add-book-reviews"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/ab3814c4-7b96-4eac-869a-572e7ed1cac4)
+
+
+
+
+
+
+
+
+#### I raised a pull-request for Morgan's work and merged with the main branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
