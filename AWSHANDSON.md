@@ -98,6 +98,25 @@
 
 
 
+#### I enabled the MFA for John to add extra security to his account
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/45ddec44-0b1e-4240-ac6c-5858dced5fd6)
+
+
+
+
+
+
+#### I also enabled the MFA for Mary-analyst
+
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/41641f3b-8321-4226-94df-400a118b8421)
+
+
+
+
+
+
+
+
 
 
 
