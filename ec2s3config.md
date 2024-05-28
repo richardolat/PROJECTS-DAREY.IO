@@ -61,8 +61,10 @@
 
 
 
-#### I put a configuration code inside the file 
-![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/c756ac6b-c971-4e64-9d71-e82eae5dfa47)
+#### I put a configuration code inside the file
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/1b143cc4-d4ef-49ba-90a3-17bf39df8b3e)
+
+
 
 
 
