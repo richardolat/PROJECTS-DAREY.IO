@@ -66,6 +66,10 @@
 
 
 
+#### My Nginx reverse proxy is up and running. Listening on port 80 on my webserver 
+![Screenshot 2024-05-28 132715](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/5efc4c0d-269d-49c5-b659-ed44d8b8d743)
+
+
 
 
 
