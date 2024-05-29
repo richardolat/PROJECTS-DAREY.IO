@@ -85,11 +85,26 @@
 
 
 
-#### 
+####  I configured my Nginx proxy server by running the commands  "sudo systemctl reload nginx"  "sudo nano /etc/nginx/sites-available/mybucket" "ls -l /etc/nginx/sites-enabled/" " sudo systemctl reload nginx"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/49f2fcc4-f67a-4706-9cde-869ba5d1398d)
 
 
 
 
+
+
+
+#### I copied my Ec2 Elastic IP and pasted it on my web browser 
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/919fa7f0-0456-44f6-b272-43e0692fe2ad)
+
+
+
+
+
+
+
+#### I copied my s3 bucket object url and pasted it on my web browser
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/6987e349-d972-41fc-85cb-eaf505f3141f)
 
 
 
