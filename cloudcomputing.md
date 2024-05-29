@@ -89,7 +89,7 @@
 
 
 #### I proceded to authenticating my github by cloning the repository with ssh
-
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/513ac0c6-ad4e-4af2-a8f8-8f2bba389ddf)
 
 
 
