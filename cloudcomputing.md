@@ -93,6 +93,8 @@
 
 
 
+#### I generated SSH keypair using "ssh-keygen"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/2d13bfea-0be7-44b9-8273-b43d73e1953d)
 
 
 
