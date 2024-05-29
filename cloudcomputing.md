@@ -101,6 +101,54 @@
 
 
 
+#### After generating the keypair i displayed and copied the public key
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/e5b5049b-1ab7-4e01-b2fe-8a8311815ceb)
+
+
+
+
+
+
+
+
+#### I added the SSHkey to my github
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/36e53fe6-a44a-4b28-9f94-6a6bece24965)
+
+
+
+
+
+#### I   cloned the repository using the url 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
