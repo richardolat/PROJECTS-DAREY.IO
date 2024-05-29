@@ -60,7 +60,55 @@
 
 
 
-#### I created a git repository without any initialization
+#### I created a git repository without any initialization and pushed my local respository content into it
+
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/ade960c5-7b23-4818-b241-0db60f94ff70)
+
+
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/8c4106ab-a150-472a-80e3-95e17a9013e2)
+
+
+
+
+
+
+
+#### I set up an Ec2 account with Amazon Linux AMI
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/89a204b8-d386-433f-9df1-0d6831fddc63)
+
+
+
+
+
+
+#### I connected to the instance using SSH 
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/9474e1b6-3e06-43f4-b223-f199669693b6)
+
+
+
+
+
+#### I proceded to authenticating my github by cloning the repository with ssh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
