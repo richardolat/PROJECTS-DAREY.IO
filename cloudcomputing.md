@@ -238,6 +238,98 @@
 
 
 #### On my github, i created a pull request and merged the development branch with the main branch  
+![Screenshot 2024-05-30 134607](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/3ee4cd70-9216-4591-a08f-376e9509fc45)
+
+
+
+
+
+
+
+
+
+#### I reviewed the changes for any potential issue 
+![Screenshot 2024-05-30 134803](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/58ece10e-3b43-46e9-8703-6664ac842610)
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### I created a pull request to merge the development branch into the main branch
+![Screenshot 2024-05-30 135230](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/30b92fcd-0dac-430c-a616-94b75b19203c)
+
+
+
+
+
+
+
+
+
+#### I swicthed to the main branch by running the command "git checkout main"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/b88bb560-f910-4af9-b1c3-2d4e9da1c73c)
+
+
+
+
+
+
+
+#### I merged the pull request into the main branch by running the command "git merge development"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/f42e4040-61de-407f-a23b-61ab6eaa2d9d)
+
+
+
+
+
+
+
+
+#### I pushed the merged changes to github by running the command "git push origin main"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/e8fd63e0-e0e4-4c6c-a82b-36d90b742f9b)
+
+
+
+
+
+
+
+#### I navigated to the production server where the production website is hosted and pull the latest changes from the main branch by running the command "git pull origin main"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/501c9f29-9a31-4661-9dfc-b6a2c4435fe3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
