@@ -181,6 +181,120 @@
 
 
 
+#### I opened my web browser and access the IP of my EC2 to view the deployed website
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/685b0515-bfea-4c73-969b-b7afa5bddf0c)
+
+
+
+
+## CONTINOUS INTEGRATION AND DEVELOPMENT WORKFLOW
+
+
+
+
+
+
+
+
+
+#### i continued my development work by creating a new branch 
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/da54a5f9-5221-4d20-bbac-72ed9ad8ad5b)
+
+
+
+
+
+#### I staged my changes by running the command "git add 2130_waso_strategy" 
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/baec3137-5b3e-4061-b4a5-54a9c7f678fd)
+
+
+
+
+
+
+
+
+#### I commit my change in the git repository by running the command " git commit -m "Add new features or fix bugs"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/0afd9dbf-eb46-486d-b7cf-5adabb58eccb)
+
+
+
+
+
+
+
+
+
+#### I uploaded the development branch with the new changes on github by running the command "git push origin development
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/c3b8584b-7151-4d50-b062-01f1fff45eb2)
+
+
+
+
+
+
+
+
+
+
+#### On my github, i created a pull request and merged the development branch with the main branch  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
