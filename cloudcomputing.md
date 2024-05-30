@@ -118,7 +118,112 @@
 
 
 
-#### I   cloned the repository using the url 
+
+
+#### I cloned the repository using the SSH url by running the command " git clone git@github.com:richardolat/Marketpeak_Ecommerce.git"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/cc4535c2-df7f-4024-b8a0-0ba10cca4a59)
+
+
+
+
+
+#### I installed a web-server on my Ec2 by running the commands; "sudo yum update"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/a2470755-4780-4513-bb57-3000d80e7cb1)
+
+
+
+
+
+
+#### I installed Apache2 by running the command "sudo yem install httpd -y"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/3bd1c8c7-bb26-40f7-b481-118568e46973)
+
+
+
+
+
+
+
+
+#### I started the httpd and enabled it by running the commands; "sudo systemctl start httpd"  "sudo systemctl enable httpd"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/658d1eb8-11fa-4420-9d4a-110f745daff3)
+
+
+
+
+
+
+
+#### I moved to configure httpd for website by clearing the default httpd web directory. i did that by running the command "sudo rm -rf /var/www/html/*"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/ebeda5b2-67d3-46f1-9ca0-d7a380cf06ae)
+
+
+
+
+
+
+#### I then copied the Marketpeak Ecomerce into it by running the command  "sudo cp -r ~/Marketpeak_Ecommerce/* /var/www/html/"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/4636128f-788e-422d-9c28-3962ecd8d07c)
+
+
+
+
+
+
+
+#### I applied the changes by reloading the httpd server by running the command "sudo systemctl reload httpd"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/fd8a42cc-13af-4656-b94c-f42c622acde3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
