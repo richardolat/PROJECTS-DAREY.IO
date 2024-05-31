@@ -64,8 +64,10 @@
 
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/ade960c5-7b23-4818-b241-0db60f94ff70)
 
-
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/8c4106ab-a150-472a-80e3-95e17a9013e2)
+
+
+
 
 
 
@@ -75,6 +77,8 @@
 
 
 
+#### I uploaded my local repository content into github
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/d8a9d265-ad79-4aa2-b78f-cb11ad0366cb)
 
 
 
