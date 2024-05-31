@@ -69,6 +69,14 @@
 
 
 
+#### Within my project directory, I added my remote repository url to my local repository configuration
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/623f8890-bf5d-40b1-87c9-752fbfec5175)
+
+
+
+
+
+
 
 
 
