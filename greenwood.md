@@ -18,6 +18,6 @@
 
 
 
-
-
+3. #### I created a folder and named it "greenwood-website" by running the command "mkdir greenwood-website"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/c9448b20-891c-4668-862c-386d5cbbdb21)
 
