@@ -340,7 +340,8 @@
 
 
 
-22. #### I pushed the staged changes by running the command "git push orogin main"
+22. #### I pushed the staged changes by running the command "git push origin main" and created a pull request
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/517ef05f-0d22-4fb5-8f9f-b579ff694188)
 
 
 
