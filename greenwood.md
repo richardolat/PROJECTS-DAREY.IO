@@ -12,5 +12,12 @@
 
 
 
-#### On the new repository, i copied the code for cloning 
+#### On the new repository, I copied the code for cloning 
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/ea2cd250-9d8a-45eb-b9b6-5710acf06a85)
+
+
+
+
+
+
 
