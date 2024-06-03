@@ -217,6 +217,171 @@
 
 
 14. #### I raised a Pull Request for Morgan's work on github 
+![Screenshot 2024-06-03 121216](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/8ed3408a-dab3-4d9d-8e4d-8c83e8524159)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15. #### I merged Morgan's work into the main branch
+    ![Screenshot 2024-06-03 121252](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/da6137ba-43a8-47a6-a94b-997f4ec1c432)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16. #### I created a new branch for Jamie and named it "update_events"
+    ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/a1db87e4-d731-4973-88d4-18d31af717dc)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17. #### Under the "Update_events" I made some changes and updated the event page with some community events
+   ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/b1dc3d7a-86e5-4d53-a6ea-e21120b81a63)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+18. #### I staged the changes by running the command "git add events.html"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/f5c86fa6-23b2-4e8c-9059-25f4fdd7a1b3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19. #### I committed the change by running the command "git commit -m "update the events section"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/3a437351-36bd-4b50-acc9-6445c1fe1e04)
+
+
+
+
+
+
+
+
+
+
+
+20. #### I pulled the latest changes from the main branch into "update_event by running the command "git pull"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/7890b675-d129-4aac-9072-be25b3b4673e)
+
+
+
+
+
+
+
+
+
+
+
+
+21. #### My git pull already up to date 
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/7a62d59e-43d9-44e3-8d63-e02a43c9d13d)
+
+
+
+
+
+
+
+
+
+
+22. #### I pushed the staged changes by running the command "git push orogin main"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
