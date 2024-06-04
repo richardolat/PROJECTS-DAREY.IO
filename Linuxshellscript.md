@@ -138,6 +138,11 @@ result=$(($i * $number)) echo -n "$result " done }
 
 
 
+13.#### I changed the permission to be able to execute the script by running the command "chmod 777 analytical"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/c28a71e3-18a8-4ef8-b10c-69531fc6c31f)
+
+
+
 
 
 
