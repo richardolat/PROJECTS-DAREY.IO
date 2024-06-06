@@ -95,10 +95,16 @@
 
 
 
+10. #### I enabled the static website so as to make my object accessible as a website
+    ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/33084389-5c8e-4a95-89de-e5b95086c7cb)
 
 
 
- 10. #### After adding the JSON-formatted policy, i tried accessing the object url and it gave me an access denied response
+
+
+
+
+ 11. #### After adding the JSON-formatted policy, i tried accessing the object url and it gave me an access denied response
      ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/726edc40-312e-4d77-9d4a-f13380d2bd81)
 
 
@@ -109,7 +115,7 @@
 
 
 
-11. #### So, i went back to the object, clicked on it and clicked on action later. under i enabled "Make Public Using CLI"  
+12. #### So, i went back to the object, clicked on it and clicked on action later. under i enabled "Make Public Using CLI"  
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/2f84b7fe-570b-49c9-b991-2a453b38271b)
 
 
@@ -121,7 +127,7 @@
 
 
 
-12. #### My object is ready and deployed.
+13. #### My object is ready and deployed.
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/fc0788c9-b4bb-4ca4-895c-f4d238023a47)
 
 
@@ -133,12 +139,24 @@
 
 
 
+14. #### I enabled the versioning on my s3 object
+    ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/4bd7aabc-6467-4171-8344-6ee2e87e9173)
 
 
 
 
 
 
+
+
+
+
+
+
+15. #### Finally, i created a replication rule
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/6a39ac77-2eb1-4e0a-baf4-f38fbf705bcd)
+
+    
 
 
 
