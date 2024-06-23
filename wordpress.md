@@ -159,8 +159,272 @@
 ## Install mysql5.7
 
 
-#### run the command "sudo rpm -Uvh https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm"
+#### Run the command "sudo rpm -Uvh https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm"
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/5934a7c0-5109-452e-b890-74f8610b2966)
+
+
+
+
+#### Run the command "sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/c6a1cf0f-02ce-41dd-87bf-19c191781e6f)
+
+
+
+
+
+#### Run the command "sudo yum install mysql-community-server -y"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/ad6994c4-fea7-4243-b78c-8c1b7821bc44)
+
+
+
+
+#### Run the command "sudo systemctl enable mysqld" and "sudo systemctl start mysqld"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/2556c36d-5b00-48bf-99f0-927850a17ccc)
+
+
+
+
+
+
+
+##  Set permissions
+
+
+#### run the command "sudo usermod -a -G apache ec2-user" and "sudo chown -R ec2-user:apache /var/www" and "sudo chmod 2775 /var/www && find /var/www -type d -exec sudo chmod 2775 {} \;" and "sudo find /var/www -type f -exec sudo chmod 0664 {} \;" and "chown apache:apache -R /var/www/html "
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/e51aa926-6ffc-4974-9342-cb55f6d60c00)
+
+
+
+
+##  Download wordpress files
+
+
+#### Run command "wget https://wordpress.org/latest.tar.gz"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/15085936-d6f4-440e-84c6-1ed43f403d6a)
+
+
+
+
+#### Run command "tar -xzf latest.tar.gz" and "sudo cp -r wordpress/* /var/www/html/"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/37087e92-1461-4be2-a29c-cde42e9687c2)
+
+
+## Create the wp-config.php file 
+
+#### Run the command "sudo cp /var/www/html/wp-config-sample.php /var/www/html/wp-config.php"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/9541c240-b54a-4f34-b732-5526278a7eaf)
+
+
+
+## Edit the wp-config.php file
+
+#### Run the command "nano /var/www/html/wp-config.php"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/21c827ba-d8b8-4662-be1a-5d8ab82d4b06)
+
+
+
+
+
+
+## Restart the webserver
+
+
+#### Run the command "service httpd restart"
+
+
+
+
+
+#### Copy the EC2 instance public IP address and paste it on the web-browser 
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/263741c6-4f37-451c-ba5b-cc2f5d4a3173)
+
+
+
+
+#### Register and install the wordpress 
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/e81c90a9-1bf9-4202-961a-5421abe2480a)
+
+
+## Create Load Balancer 
+
+
+#### Spin up two instances in the private subnets and add a user-data:
+"#!/bin/bash
+yum update -y
+sudo yum install -y httpd httpd-tools mod_ssl
+sudo systemctl enable httpd 
+sudo systemctl start httpd
+sudo amazon-linux-extras enable php7.4
+sudo yum clean metadata
+sudo yum install php php-common php-pear -y
+sudo yum install php-{cgi,curl,mbstring,gd,mysqlnd,gettext,json,xml,fpm,intl,zip,mysqli} -y
+sudo rpm -Uvh https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
+sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+sudo yum install mysql-community-server -y
+sudo systemctl enable mysqld
+sudo systemctl start mysqld
+echo "fs-0a03cac5dddf1f3e5.efs.us-east-1.amazonaws.com:/ /var/www/html nfs4 nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 0 0" >> /etc/fstab
+mount -a
+chown apache:apache -R /var/www/html
+sudo service httpd restart"
+
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/19810ff9-d19f-4cd4-b3a5-1d5cbcd4ac93)
+
+
+#### Create Load balancer and target group
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/41022aa3-b6b9-4290-9e9b-d11db7f26b6c)
+
+
+
+
+
+
+#### Copy the Load Balancer DNS name and paste it on the web browser
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/ce3c9125-565c-48cf-afbb-9b2d69a29194)
+
+
+## Registeer a domain name on Route 53 and create record that points access to it 
+
+
+
+
+#### Create hosted zone and configure it by enabling alias and pointing it to the application load balancer
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/69046237-0164-46b4-8c71-9633f7caf42f)
+
+
+
+
+#### copy the hosted zone name and paste it on the web browser
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/0d807e14-4b4d-4191-b6c9-8cbda9c7c65d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
