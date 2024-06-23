@@ -7,8 +7,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 #### Create internet gateway and attach it to the VPC
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/ac9aa26b-0203-4f7c-817b-91c79ed70013)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -19,8 +45,32 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 #### Create a public Route Table; Edit the route to enable internet-gateway and associate the public-subnet
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/f30cc153-9e3c-4f22-ad72-94731e16d88a)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -32,8 +82,36 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Create a route table for the private subnets 
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/0d472c14-92fd-440c-a992-633fe3f92086)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -48,8 +126,40 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Create two NAT gateway with the public subnet 1 and 2 and then add it to the private route table 1 and 2  to enable it access internet
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/d9bed200-033d-4c90-97e0-bb4da8061087)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -63,13 +173,55 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Create database subnet group
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/e9ab8de7-6168-4279-914c-7c12f2c9c4d0)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Create and configure Database
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/110c6ef6-0e09-499d-8d1c-307e41d5792a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -81,8 +233,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Create an EC2 instance 
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/ad31253b-7452-4a37-a7cd-fe45fcf032f1)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -97,8 +275,33 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Run "yum update -y" to update the webserver
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/ae9799cc-e8fe-4a2e-adaa-4ad3694d3e05)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -113,13 +316,59 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Mount the EFS file into the newly created directory "sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-0a03cac5dddf1f3e5.efs.us-east-1.amazonaws.com:/ /var/www/html"
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/695b9c27-3ade-4d28-b80b-d70140db5b17)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Install httpd and its dependencies "sudo yum install -y httpd httpd-tools mod_ssl"
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/f11e9ecb-240d-461f-8624-fe8d272d1d12)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -130,8 +379,36 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Install php by running "sudo yum install php" (The command "sudo yum install -y httpd httpd-tools mod_ssl" didnt work on my configured amazon-linux)
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/fa9bd77f-2c4c-4494-bb7d-73dd522ef364)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -144,6 +421,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 #### Run the command "sudo yum install php php-common php-pear -y"
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/0c48b384-6cc4-45fe-9ab5-a11a9dfbf17e)
 
@@ -151,8 +438,28 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 #### Run the command "sudo yum install php-{cgi,curl,mbstring,gd,mysqlnd,gettext,json,xml,fpm,intl,zip} -y" to install other php dependencies 
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/e0e11530-ac35-4a45-9666-2117e1ada5e1)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -165,8 +472,28 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 #### Run the command "sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022"
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/c6a1cf0f-02ce-41dd-87bf-19c191781e6f)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -178,8 +505,32 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Run the command "sudo systemctl enable mysqld" and "sudo systemctl start mysqld"
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/2556c36d-5b00-48bf-99f0-927850a17ccc)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -196,7 +547,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ##  Download wordpress files
+
 
 
 #### Run command "wget https://wordpress.org/latest.tar.gz"
@@ -205,8 +569,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
 #### Run command "tar -xzf latest.tar.gz" and "sudo cp -r wordpress/* /var/www/html/"
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/37087e92-1461-4be2-a29c-cde42e9687c2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Create the wp-config.php file 
@@ -216,7 +606,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Edit the wp-config.php file
+
+
 
 #### Run the command "nano /var/www/html/wp-config.php"
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/21c827ba-d8b8-4662-be1a-5d8ab82d4b06)
@@ -226,10 +638,45 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Restart the webserver
 
 
+
+
+
+
+
+
+
 #### Run the command "service httpd restart"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -241,11 +688,53 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 #### Register and install the wordpress 
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/e81c90a9-1bf9-4202-961a-5421abe2480a)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Create Load Balancer 
+
+
+
+
+
+
+
+
 
 
 #### Spin up two instances in the private subnets and add a user-data:
@@ -271,8 +760,43 @@ sudo service httpd restart"
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/19810ff9-d19f-4cd4-b3a5-1d5cbcd4ac93)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Create Load balancer and target group
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/41022aa3-b6b9-4290-9e9b-d11db7f26b6c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -283,7 +807,38 @@ sudo service httpd restart"
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/ce3c9125-565c-48cf-afbb-9b2d69a29194)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Registeer a domain name on Route 53 and create record that points access to it 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -294,12 +849,87 @@ sudo service httpd restart"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### copy the hosted zone name and paste it on the web browser
 ![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/0d807e14-4b4d-4191-b6c9-8cbda9c7c65d)
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Create auto-scaling group and attach to the load-balancer
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/54608e66-b1d0-4493-aef9-42ebf9fa3b29)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### THIS IS THE END OF THE PROJECT
 
 
 
