@@ -70,6 +70,12 @@
 ![Screenshot 2024-06-30 153442](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/e35d0dea-fe06-4b50-8358-b1aee33140da)
 
 
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/21947c9d-41d7-4203-839c-6e2f0bf9d63c)
+
+
+
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/79c7cf50-7e79-461e-900d-c4b82212fda6)
+
 
 
 
