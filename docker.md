@@ -88,13 +88,14 @@ COPY style.css /usr/share/nginx/html
 
 
 #### Install kind (Kubernetes in Docker):
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/a50026eb-cba5-420e-b62f-125ae384ab6f)
 
 
 
 
 
 
-
+#### Create a kind cluster:"kind create cluster"
 
 
 
