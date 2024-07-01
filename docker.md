@@ -68,6 +68,34 @@ COPY style.css /usr/share/nginx/html
 
 
 
+#### Build and push the Docker image to Docker Hub:docker build -t your-dockerhub-richiehub/my-nginx-app .
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/ad82fa2d-d168-44e1-8578-cbab5b970b10)
+
+
+
+
+
+
+
+
+
+
+#### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
