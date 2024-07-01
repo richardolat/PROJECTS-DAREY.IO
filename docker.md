@@ -80,9 +80,14 @@ COPY style.css /usr/share/nginx/html
 
 
 
-#### 
+#### Push the Docker image to Docker Hub: "docker push richardolat/nginx:1.0.0"
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/48dcfcfb-f014-4ec3-b3bf-5eb877f0b397)
 
 
+
+
+
+#### Install kind (Kubernetes in Docker):
 
 
 
